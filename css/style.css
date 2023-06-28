@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+body{
+  width:400px;
+}
+main{
+  width:250px;
+  height:250px;
+  float:right;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.redbox{
+  height:100px;
+  background-color: #ff0000;
+}
+.greenbox{
+  width:150px;
+  height:250px;
+  background-color: #00ff51;
+  float: left;
+}
+.purplebox{
+  height:50px;
+  width:150px;
+  background-color: #cc00db;
+  float:left;
+}
+.bluebox{
+  height:100px;
+  width:150px;
+  background-color: #0093b7;
+  float: left;
+}
+.orangebox{
+  width:100px;
+  height:150px;
+  background-color: #ff9e6b;
+  float:right;
+}
+.brownbox{
+  height:100px;
+  background-color: #8c2727;
+  clear: both;
+}
+.yellowbox{
+  height:100px;
+  background-color: #fff700;
+}
